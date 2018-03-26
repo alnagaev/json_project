@@ -11,7 +11,6 @@ users = [x for x in os.listdir(BASE_DIR) if x.endswith(".txt")
 with open(file, 'r') as f:
     json_data = json.load(f)
 
-
 for user in users:
     with open(os.path.join(BASE_DIR, user), 'r') as f:
         reader = csv.reader(f)
