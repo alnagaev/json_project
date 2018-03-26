@@ -1,5 +1,5 @@
 import csv, os, json
-file = 'C:/Users/USER/Documents/Python_Scripts/nii/file.json'
+file = 'file.json'
 
 """Предполагается, что файлы user1,2,3 будут находится в той же директории
 что и json"""
